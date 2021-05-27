@@ -1,38 +1,89 @@
+body {
+  max-width: 40%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-shadow: 0 0 0.1px rgb(0 0 0 / 30%);
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #332e2e;
+}
 .App {
-  text-align: center;
+  margin: 10px auto;
+  line-height: 1.5em;
+}
+nav {
+  max-width: 40%;
+  font-size: 22px;
+  margin-left: 0;
+  padding-bottom: 1%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul {
+  white-space: nowrap;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin: 10%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #60b4a6;
+}
+header {
+  margin-top: 25px;
+  font-size: 37px;
+  font-weight: 900;
+}
+.recent-work header {
+  font-size: 32px;
+  font-weight: 600;
+}
+.year header {
+  font-size: 25px;
+  font-weight: 900;
+  color: #3d3939;
+}
+.skill header {
+  font-size: 25px;
+  font-weight: 900;
+  color: #3d3939;
+}
+span {
+  font-size: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #645b5b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(233, 226, 226);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+  font-size: 1.2rem;
+  color: #645b5b;
 }
-
-.App-link {
-  color: #61dafb;
+.footer ul li {
+  list-style-type: none;
+  float: left;
+  width: 12rem;
+  padding: 5px 0;
+  margin: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.year p {
+  margin-left: 5%;
+}
+.skill p {
+  margin-left: 5%;
 }
