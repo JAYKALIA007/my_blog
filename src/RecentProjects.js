@@ -47,6 +47,8 @@ function RecentProjects() {
       <br />
       <a
         href="https://github.com/JAYKALIA007?tab=repositories&q=&type=&language=&sort="
+        target="_blank"
+        rel="noopener noreferrer"
         style={{
           color: "#60b4a6",
           textDecoration: "underline",

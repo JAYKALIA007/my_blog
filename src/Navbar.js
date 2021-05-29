@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DarkMode from "./DarkMode";
+import DarkMode from "./DarkMode/DarkMode";
 function Navbar() {
   return (
     <div>

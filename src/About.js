@@ -3,106 +3,89 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <img
-          align="right"
-          src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
-          alt="coding gif"
-          width="180"
-        />
         <header>About Jay</header>
         <p>
-          A frontend{" "}
+          I have interests and experience in Software development. Mostly
+          frontend development using{" "}
           <strong>
-            <em>REACT</em>
-          </strong>{" "}
-          developer.
-          <br /> Exploring new technologies and developing software solutions.
-          <br />
-          Pursuing Web Development and Blog Writing as hobbies.
-          <br />
-          <div className="skills">
-            <header style={{ color: "#332e2e", fontSize: "32px" }}>
-              Skills
-            </header>
-            <div className="skill">
-              <p>
-                <header>Languages</header>
-                &nbsp;&nbsp;&nbsp;Java, JavaScript
-              </p>
-            </div>
-            <div className="skill">
-              <p>
-                <header>Libraries</header>
-                &nbsp;&nbsp;&nbsp;React JS, Redux
-              </p>
-            </div>
-            <div className="skill">
-              <p>
-                <header>IT Constructs</header>
-                &nbsp;&nbsp;&nbsp;Data Structures and Algorithms
-              </p>
-            </div>
-            <div className="skill">
-              <p>
-                <header>Environment</header>
-                &nbsp;&nbsp;&nbsp;GIT Bash
-              </p>
-            </div>
-          </div>
+            <em>React.js</em>
+          </strong>
+          . I have been working with React.js for almost 7 months now. &nbsp;At
+          the same time I have built some projects as well as written multiple
+          blogposts as well. &nbsp;As of now, most of my leisure time, which is
+          the weekends are spent on this particular blog website. &nbsp;Apart
+          from all this, I have good hold on data structures and algorithms as
+          well as competetive programming.
         </p>
-        <br />
-        <div className="recent-work">
-          <header>Timeline</header>
-          <div className="year">
-            <header>
-              <i
-                className="fa fa-angle-double-right"
-                style={{ fontSize: "27px", color: "##3d3939" }}
-              ></i>{" "}
-              2021
-            </header>
+        <div className="skills" style={{ textAlign: "left" }}>
+          <img
+            align="right"
+            src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
+            alt="coding gif"
+            width="250"
+          />
+          <header>Skills</header>
+          <div className="skill">
             <p>
-              <strong>Full time</strong> <br />
-              Software developer [TCS, Bangalore] <br />
-              <strong>Graduation</strong> <br />
-              8.45 [CET, BBSR]
+              <header>Languages</header>
+              &nbsp;&nbsp;&nbsp;Java, JavaScript
             </p>
-            <header>
-              <i
-                className="fa fa-angle-double-right"
-                style={{ fontSize: "27px", color: "##3d3939" }}
-              ></i>{" "}
-              2017
-            </header>
+          </div>
+          <div className="skill">
             <p>
-              <strong>+2 Intermediate</strong> <br />
-              91% [Mother's Public School, BBSR]
-            </p>{" "}
-            <header>
-              <i
-                className="fa fa-angle-double-right"
-                style={{ fontSize: "27px", color: "##3d3939" }}
-              ></i>{" "}
-              2015
-            </header>
+              <header>Libraries</header>
+              &nbsp;&nbsp;&nbsp;React JS, Redux
+            </p>
+          </div>
+          <div className="skill">
             <p>
-              <strong>Matriculation</strong> <br />
-              94.5% [St. Teresa's School, Joda]
-            </p>{" "}
-            <header>
-              <i
-                className="fa fa-angle-double-right"
-                style={{ fontSize: "27px", color: "#3d3939" }}
-              ></i>{" "}
-              1999
-            </header>
+              <header>IT Constructs</header>
+              &nbsp;&nbsp;&nbsp;Data Structures and Algorithms
+            </p>
+          </div>
+          <div className="skill">
             <p>
-              <strong>Born</strong> <br />
-              Oct 26, 1999
+              <header>Environment</header>
+              &nbsp;&nbsp;&nbsp;GIT Bash
             </p>
           </div>
         </div>
-
+        <div className="skills" style={{ textAlign: "left" }}>
+          <header>Timeline</header>
+          <div className="skill">
+            <p>
+              <header>2021</header>
+              &nbsp;&nbsp;&nbsp;<strong>Full time</strong> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software developer [TCS Digital,
+              Bangalore] <br />
+              &nbsp;&nbsp;&nbsp;<strong>Graduation</strong> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.45 [CET, BBSR]
+            </p>
+          </div>
+          <div className="skill">
+            <p>
+              <header>2017</header>
+              &nbsp;&nbsp;&nbsp;<strong>+2 Intermediate</strong> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91% [Mother's Public School, BBSR]
+            </p>
+          </div>
+          <div className="skill">
+            <p>
+              <header>2015</header>
+              &nbsp;&nbsp;&nbsp;<strong>Matriculation</strong> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;94.5% [St. Teresa's School, Joda]
+            </p>
+          </div>
+          <div className="skill">
+            <p>
+              <header>1999</header>
+              &nbsp;&nbsp;&nbsp;<strong>Born</strong> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oct 26, 1999
+            </p>
+          </div>
+        </div>
+        {/* </p> */}
+        <br />
         <hr />
       </div>
     );

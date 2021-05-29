@@ -1,4 +1,4 @@
-import RecentBlogs from "./RecentBlogs";
+import RecentBlogs from "./Blogs/RecentBlogs";
 import RecentProjects from "./RecentProjects";
 function Recent() {
   return (
