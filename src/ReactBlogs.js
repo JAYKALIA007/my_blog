@@ -35,6 +35,7 @@ function ReactBlogs() {
           <a
             href="https://jayprakash07.hashnode.dev/using-axios-to-fetch-data-in-your-react-apps-ckluks4bb0dth10s1e16pa6tb"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Using axios to fetch data in your React apps
           </a>
@@ -49,6 +50,7 @@ function ReactBlogs() {
           <a
             href="https://jayprakash07.hashnode.dev/typewriter-effect-in-your-react-app-ckktxffaf0fzxjjs13p5wb8hh"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Typewriter effect in your React app.
           </a>

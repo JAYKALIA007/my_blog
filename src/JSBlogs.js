@@ -36,6 +36,7 @@ function JSBlogs() {
           <a
             href="https://jayprakash07.hashnode.dev/undefined-vs-not-defined-in-js-ckk5qmm7o01niics12ukb3i6m"
             target="_blank"
+            rel="noopener noreferrer"
           >
             undefined vs not defined in JavaScript.
           </a>

@@ -7,6 +7,7 @@ function RecentBlogs() {
         <a
           href="https://jayprakash07.hashnode.dev/using-axios-to-fetch-data-in-your-react-apps-ckluks4bb0dth10s1e16pa6tb"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Using axios to fetch data in your React apps
         </a>
@@ -20,6 +21,7 @@ function RecentBlogs() {
         <a
           href="https://jayprakash07.hashnode.dev/typewriter-effect-in-your-react-app-ckktxffaf0fzxjjs13p5wb8hh"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Typewriter effect in your React app.
         </a>
@@ -33,6 +35,7 @@ function RecentBlogs() {
         <a
           href="https://jayprakash07.hashnode.dev/undefined-vs-not-defined-in-js-ckk5qmm7o01niics12ukb3i6m"
           target="_blank"
+          rel="noopener noreferrer"
         >
           undefined vs not defined in JavaScript.
         </a>
@@ -46,6 +49,7 @@ function RecentBlogs() {
         <a
           href="https://jaykalia07.medium.com/heaps-the-cutest-little-data-structure-ever-invented-a1d0010cca84"
           target="_blank"
+          rel="noopener noreferrer"
         >
           HEAPS, the cutest little data structure.
         </a>

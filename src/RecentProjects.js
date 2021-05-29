@@ -6,6 +6,7 @@ function RecentProjects() {
         <a
           href="https://github.com/JAYKALIA007/project-manager-1.0"
           target="_blank"
+          rel="noopener noreferrer"
         >
           project-manager-1.0
         </a>
@@ -20,6 +21,7 @@ function RecentProjects() {
         <a
           href="https://github.com/JAYKALIA007/movie-search-app"
           target="_blank"
+          rel="noopener noreferrer"
         >
           movie-search-app
         </a>
@@ -30,7 +32,11 @@ function RecentProjects() {
       </span>
 
       <span className="project-header">
-        <a href="https://github.com/JAYKALIA007/CHATCORD" target="_blank">
+        <a
+          href="https://github.com/JAYKALIA007/CHATCORD"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           CHATCORD
         </a>
         <p>

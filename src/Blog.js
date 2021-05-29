@@ -35,6 +35,7 @@ function Blog() {
           <a
             href="https://jayprakash07.hashnode.dev/using-axios-to-fetch-data-in-your-react-apps-ckluks4bb0dth10s1e16pa6tb"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Using axios to fetch data in your React apps
           </a>
@@ -49,6 +50,7 @@ function Blog() {
           <a
             href="https://jayprakash07.hashnode.dev/typewriter-effect-in-your-react-app-ckktxffaf0fzxjjs13p5wb8hh"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Typewriter effect in your React app.
           </a>
@@ -65,6 +67,7 @@ function Blog() {
           <a
             href="https://jayprakash07.hashnode.dev/undefined-vs-not-defined-in-js-ckk5qmm7o01niics12ukb3i6m"
             target="_blank"
+            rel="noopener noreferrer"
           >
             undefined vs not defined in JavaScript.
           </a>
@@ -80,6 +83,7 @@ function Blog() {
           <a
             href="https://jaykalia07.medium.com/heaps-the-cutest-little-data-structure-ever-invented-a1d0010cca84"
             target="_blank"
+            rel="noopener noreferrer"
           >
             HEAPS, the cutest little data structure.
           </a>
@@ -93,6 +97,7 @@ function Blog() {
           <a
             href="https://jaykalia07.medium.com/perfectly-balanced-as-all-things-should-be-avl-trees-9979724fba7d"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Perfectly balanced as all things should be — AVL trees
           </a>
@@ -106,6 +111,7 @@ function Blog() {
           <a
             href="https://medium.com/swlh/an-introduction-to-dynamic-programming-b2389eff7321"
             target="_blank"
+            rel="noopener noreferrer"
           >
             An Introduction to Dynamic Programming
           </a>
@@ -119,6 +125,7 @@ function Blog() {
           <a
             href="https://jaykalia07.medium.com/linked-lists-and-the-runner-technique-8e70e5433389"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Linked lists and the Runner Technique
           </a>

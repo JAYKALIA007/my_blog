@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DarkMode from "./DarkMode";
 function Navbar() {
   return (
     <div>
@@ -18,6 +19,9 @@ function Navbar() {
               AllBut
               <i className="fa fa-code" style={{ fontSize: "25px" }}></i>
             </Link>
+          </li>
+          <li>
+            <DarkMode />
           </li>
         </ul>
       </nav>

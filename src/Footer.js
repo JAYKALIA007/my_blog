@@ -8,6 +8,7 @@ class Footer extends Component {
         <a
           href="https://open.spotify.com/playlist/7buwvIm3xfQBBOYvteO5Gf"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i
             className="fa fa-spotify"
@@ -22,12 +23,17 @@ class Footer extends Component {
               className="item"
               href="https://github.com/JAYKALIA007"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
           </li>
           <li>
-            <a href="https://leetcode.com/jay_prakash_kalia/" target="_blank">
+            <a
+              href="https://leetcode.com/jay_prakash_kalia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LeetCode
             </a>
           </li>
@@ -36,6 +42,7 @@ class Footer extends Component {
               className="item"
               href="https://hashnode.com/@jayprakash07"
               target="_blank"
+              rel="noopener noreferrer"
             >
               hashnode
             </a>
@@ -45,6 +52,7 @@ class Footer extends Component {
               className="item"
               href="https://www.linkedin.com/in/jay-prakash-07/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
@@ -54,6 +62,7 @@ class Footer extends Component {
               className="item"
               href="https://medium.com/@jaykalia07"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Medium
             </a>
@@ -63,6 +72,7 @@ class Footer extends Component {
               className="item"
               href="https://twitter.com/jay_prakash07"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Twitter
             </a>
@@ -92,6 +102,7 @@ class Footer extends Component {
               className="item"
               href="https://buymeacoffee.com/jayprakash07"
               target="_blank"
+              rel="noopener noreferrer"
             >
               BMC
             </a>

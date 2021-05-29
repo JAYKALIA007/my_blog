@@ -35,6 +35,7 @@ function DSABlogs() {
           <a
             href="https://jaykalia07.medium.com/heaps-the-cutest-little-data-structure-ever-invented-a1d0010cca84"
             target="_blank"
+            rel="noopener noreferrer"
           >
             HEAPS, the cutest little data structure.
           </a>
@@ -48,6 +49,7 @@ function DSABlogs() {
           <a
             href="https://jaykalia07.medium.com/perfectly-balanced-as-all-things-should-be-avl-trees-9979724fba7d"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Perfectly balanced as all things should be — AVL trees
           </a>
@@ -61,6 +63,7 @@ function DSABlogs() {
           <a
             href="https://medium.com/swlh/an-introduction-to-dynamic-programming-b2389eff7321"
             target="_blank"
+            rel="noopener noreferrer"
           >
             An Introduction to Dynamic Programming
           </a>
@@ -74,6 +77,7 @@ function DSABlogs() {
           <a
             href="https://jaykalia07.medium.com/linked-lists-and-the-runner-technique-8e70e5433389"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Linked lists and the Runner Technique
           </a>
