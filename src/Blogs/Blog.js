@@ -56,8 +56,8 @@ function Blog() {
           </a>
           <p>
             A lot of websites nowadays contain texts that simulate typing
-            effect, eraser effect and a blinking cursor. Demo Let's create a
-            simple typewriter effe…
+            effect, eraser effect and a blinking cursor. Let's create a simple
+            typewriter effe…
           </p>
         </span>
       </div>

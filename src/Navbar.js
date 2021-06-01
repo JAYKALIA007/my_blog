@@ -3,7 +3,7 @@ import DarkMode from "./DarkMode/DarkMode";
 function Navbar() {
   return (
     <div>
-      <nav>
+      <nav className="navbar">
         <ul>
           <li>
             <Link to="/">Home</Link>

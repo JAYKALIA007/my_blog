@@ -12,13 +12,11 @@ class About extends Component {
           </strong>
           . I have been working with React.js for almost 7 months now. &nbsp;At
           the same time I have built some projects as well as written multiple
-          blogposts. &nbsp;As of now, most of my leisure time, which is the
-          weekends are spent on this particular blog website. &nbsp;Apart from
-          all this, I have good hold on data structures and algorithms as well
-          as competetive programming.
+          blogposts.
         </p>
         <div className="skills" style={{ textAlign: "left" }}>
           <img
+            id="image"
             align="right"
             src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
             alt="coding gif"

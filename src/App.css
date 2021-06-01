@@ -130,3 +130,159 @@ body.dark .skill header {
 body.light .skill header {
   color: var(--black2);
 }
+@media screen and (max-width: 1400px) {
+  body {
+    max-width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  .footer ul li {
+    width: 8rem;
+  }
+  #image {
+    width: 200px;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    max-width: 100%;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  .App {
+    line-height: 1.5em;
+    max-width: 80%;
+  }
+  .project-header {
+    font-size: 24px;
+  }
+  .footer ul li {
+    width: 8rem;
+    padding: 8px 0;
+    margin: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    max-width: 100%;
+    margin: 20px auto;
+    font-size: 15px;
+  }
+  .App {
+    line-height: 1.5em;
+    max-width: 95%;
+    margin: 10px 20px;
+  }
+  nav {
+    max-width: 19%;
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 20%;
+  }
+  p {
+    font-size: 16px;
+  }
+  #image {
+    padding-top: 80px;
+  }
+  header {
+    font-size: 30px;
+  }
+  .recent-work header {
+    font-size: 25px;
+  }
+  .skill header {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .project-header {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar li {
+    font-size: 17px;
+  }
+  nav {
+    max-width: 28%;
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 13%;
+  }
+  .footer ul li {
+    width: 5rem;
+    padding: 8px 0;
+    margin: 8px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    max-width: 100%;
+    margin: auto;
+    font-size: 15px;
+  }
+  .App {
+    line-height: 1.35em;
+    max-width: 95%;
+    margin: 10px 20px;
+  }
+  .navbar li {
+    font-size: 14px;
+  }
+  nav {
+    max-width: 18%;
+    padding-bottom: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 45%;
+  }
+  #image {
+    width: 110px;
+  }
+  header {
+    font-size: 25px;
+  }
+  .recent-work header {
+    font-size: 23px;
+  }
+  .skill header {
+    font-size: 18px;
+  }
+  .project-header {
+    font-size: 18px;
+  }
+
+  .footer ul li {
+    width: 4rem;
+    padding: 7px 0;
+    margin: 6px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #image {
+    width: 122px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #image {
+    width: 95px;
+    padding: 0;
+    padding-top: 60px;
+  }
+  p {
+    font-size: 15px;
+  }
+}

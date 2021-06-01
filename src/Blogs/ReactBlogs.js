@@ -56,8 +56,8 @@ function ReactBlogs() {
           </a>
           <p>
             A lot of websites nowadays contain texts that simulate typing
-            effect, eraser effect and a blinking cursor. Demo Let's create a
-            simple typewriter effect...
+            effect, eraser effect and a blinking cursor. Let's create a simple
+            typewriter effect...
           </p>
         </span>
       </div>
