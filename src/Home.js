@@ -6,11 +6,6 @@ class Home extends Component {
       <div>
         <div className="introduction">
           <header>Hello, I'm Jay Prakash.</header>
-          {/* <p>
-            I'm a frontend developer from Bhubaneswar, India. I work as a
-            software developer at TCS Digital. Mostly using React, Redux for
-            development. I also write blogs related to computer science.
-          </p> */}
           <p>
             A frontend{" "}
             <strong>

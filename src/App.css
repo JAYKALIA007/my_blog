@@ -43,7 +43,6 @@ nav ul {
 nav li {
   display: inline;
   margin: 8%;
-  /* text-align: left; */
 }
 
 a {
@@ -99,16 +98,16 @@ p {
   font-style: italic;
 }
 body.dark p {
-  color: #dacdcd;
+  color: #e6d7d7;
 }
 body.light p {
-  color: #6b5a5a;
+  color: #554d4d;
 }
 body.dark ul li {
-  color: #dacdcd;
+  color: #e6d7d7;
 }
 body.light ul li {
-  color: #6b5a5a;
+  color: #554d4d;
 }
 .footer ul li {
   list-style-type: none;
@@ -184,7 +183,7 @@ body.light .skill header {
     margin: 20%;
   }
   p {
-    font-size: 16px;
+    font-size: 17px;
   }
   #image {
     padding-top: 80px;
@@ -262,18 +261,19 @@ body.light .skill header {
   }
 
   .footer ul li {
-    width: 4rem;
+    width: 5rem;
     padding: 7px 0;
-    margin: 6px;
-    font-size: 14px;
+    margin: 8px;
+    font-size: 15px;
   }
 }
+
 @media screen and (max-width: 400px) {
   #image {
     width: 122px;
   }
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 350px) {
@@ -283,6 +283,6 @@ body.light .skill header {
     padding-top: 60px;
   }
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
