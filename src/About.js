@@ -3,9 +3,9 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <header>About Jay</header>
+        <header>About me</header>
         <p>
-          I have interests and experience in Software development. Mostly
+          I have interests and experience in Software development, mostly
           frontend development using{" "}
           <strong>
             <em>React.js</em>

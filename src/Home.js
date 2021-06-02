@@ -5,18 +5,15 @@ class Home extends Component {
     return (
       <div>
         <div className="introduction">
-          <header>Hello, I'm Jay Prakash.</header>
+          <header>Hey, it's Jay. </header>
           <p>
-            A frontend{" "}
+            I'm a frontend{" "}
             <strong>
               <em>REACT</em>
             </strong>{" "}
-            developer.
-            <br />
-            Exploring new technologies and developing software solutions.
-            <br />
-            Pursuing Web Development and Blog Writing as hobbies.
-            <br />
+            developer who enjoys music and FIFA. I love exploring new
+            technologies and developing software solutions. I am pursuing Web
+            Development and Blog Writing as hobbies.
           </p>
         </div>
         <div className="recent-work">
