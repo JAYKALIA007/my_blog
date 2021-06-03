@@ -3,25 +3,29 @@ function DSABlogs() {
   return (
     <div>
       <br />
-      <Link
+      <Link 
+      className="blog-filter"
         style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
         to="/blog"
       >
         #All
       </Link>
-      <Link
+      <Link 
+      className="blog-filter"
         style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
         to="/blog/react"
       >
         #react
       </Link>
-      <Link
+      <Link 
+      className="blog-filter"
         style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
         to="/blog/js"
       >
         #javascript
       </Link>
-      <Link
+      <Link 
+      className="blog-filter"
         style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
         to="/blog/dsa"
       >
