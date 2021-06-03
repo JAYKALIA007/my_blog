@@ -3,26 +3,30 @@ function ReactBlogs() {
   return (
     <div>
       <br />
-      <Link className="blog-filter"
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+      <Link
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog"
       >
         #All
       </Link>
-      <Link className="blog-filter"
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+      <Link
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/react"
       >
         #react
       </Link>
-      <Link className="blog-filter"
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+      <Link
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/js"
       >
         #javascript
       </Link>
-      <Link className="blog-filter"
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+      <Link
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/dsa"
       >
         #data-structures
