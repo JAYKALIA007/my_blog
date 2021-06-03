@@ -4,25 +4,29 @@ function Blog() {
     <div>
       <br />
       <Link
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog"
       >
         #All
       </Link>
       <Link
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/react"
       >
         #react
       </Link>
       <Link
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/js"
       >
         #javascript
       </Link>
       <Link
-        style={{ background: "#faf5f5", padding: "2px", margin: "10px" }}
+        className="blog-filter"
+        style={{ padding: "2px", margin: "10px" }}
         to="/blog/dsa"
       >
         #data-structures

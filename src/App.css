@@ -85,6 +85,12 @@ body.dark hr {
   height: 1px;
   background-color: #473d3d;
 }
+body.light .blog-filter {
+  background: #f4f4f4;
+}
+body.dark .blog-filter {
+  background: #4b4848;
+}
 
 .year p {
   margin-left: 5%;
