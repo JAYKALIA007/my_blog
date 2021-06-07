@@ -19,13 +19,13 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
-          <Route path="/allBut">
+          <Route exact path="/allBut">
             <AllBut />
           </Route>
-          <Route path="/mywork">
+          <Route exact path="/mywork">
             <MyWork />
           </Route>
           <Route exact path="/blog">
@@ -40,6 +40,9 @@ function App() {
           <Route exact path="/blog/dsa">
             <DSABlogs />
           </Route>
+          <Route
+            render={() => <span className="errorMessage">Error 404</span>}
+          />
         </Switch>
         <Footer />
       </div>

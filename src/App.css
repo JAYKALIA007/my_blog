@@ -57,6 +57,7 @@ header {
   font-size: 37px;
   font-weight: 900;
 }
+
 .recent-work header {
   font-size: 32px;
   font-weight: 600;
@@ -128,6 +129,16 @@ body.dark .skill header {
 body.light .skill header {
   color: var(--black2);
 }
+.errorMessage {
+  text-align: center;
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 100;
+  padding: 5%;
+}
+
 @media screen and (max-width: 1400px) {
   body {
     max-width: 80%;
@@ -140,6 +151,25 @@ body.light .skill header {
   #image {
     width: 200px;
     padding: 40px;
+  }
+  .errorMessage {
+    margin: 80px;
+    font-size: 70px;
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .errorMessage {
+    margin: 70px;
+    font-size: 70px;
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .errorMessage {
+    margin: 70px;
+    font-size: 50px;
+    padding: 10%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -159,6 +189,11 @@ body.light .skill header {
     width: 8rem;
     padding: 8px 0;
     margin: 8px;
+  }
+  .errorMessage {
+    margin: 70px;
+    font-size: 50px;
+    padding: 12%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -201,6 +236,11 @@ body.light .skill header {
   .project-header {
     font-size: 20px;
   }
+  .errorMessage {
+    margin: 30px;
+    font-size: 40px;
+    padding: 18%;
+  }
 }
 @media screen and (max-width: 600px) {
   .navbar li {
@@ -220,6 +260,11 @@ body.light .skill header {
     padding: 8px 0;
     margin: 8px;
     font-size: 16px;
+  }
+  .errorMessage {
+    margin: 50px;
+    padding: 13%;
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -266,6 +311,11 @@ body.light .skill header {
     margin: 8px;
     font-size: 15px;
   }
+  .errorMessage {
+    margin: 50px;
+    padding: 13%;
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -275,8 +325,13 @@ body.light .skill header {
   p {
     font-size: 15px;
   }
+  .errorMessage {
+    margin: 50px;
+    padding: 10%;
+    font-size: 40px;
+  }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
   #image {
     width: 95px;
     padding: 0;
@@ -284,5 +339,9 @@ body.light .skill header {
   }
   p {
     font-size: 14px;
+  }
+  .errorMessage {
+    margin: 20px;
+    font-size: 30px;
   }
 }
