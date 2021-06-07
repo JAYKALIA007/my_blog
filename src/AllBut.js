@@ -2,21 +2,16 @@ import React, { Component } from "react";
 class AllBut extends Component {
   render() {
     return (
-      <div>
+      <div style={{ textAlign: "center" }}>
         <br />
         <p>
           If you are looking for content related to programming here as well.
           &nbsp;My friend it's
         </p>
-        <h2 style={{ textAlign: "center" }}> 404 for you</h2>
+        <header> 404 for you</header>
         <br />
-        <p>
-          Will be working on this page as soon as I finish all the other pages.
-        </p>
-        <h2 style={{ textAlign: "center", paddingBottom: "20%" }}>
-          {" "}
-          Stay Tuned!
-        </h2>
+        <p>Working on this page.</p>
+        <h2 style={{ paddingBottom: "20%" }}> Stay Tuned!</h2>
 
         <hr />
       </div>
