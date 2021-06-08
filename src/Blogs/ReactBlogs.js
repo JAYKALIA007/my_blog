@@ -36,9 +36,9 @@ function ReactBlogs() {
       <hr />
       <br />
       <div id="#react" style={{ paddingBottom: "40%" }}>
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header">
           <Link to="/blog/react/reactRouter">
-            React Router in your React app
+            Using React Router in your React app
           </Link>
           <p>
             A single-page application (SPA) is a website that re-renders its
@@ -46,7 +46,7 @@ function ReactBlogs() {
             without making a request...
           </p>
         </span>
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header">
           <a
             href="https://jayprakash07.hashnode.dev/using-axios-to-fetch-data-in-your-react-apps-ckluks4bb0dth10s1e16pa6tb"
             target="_blank"
@@ -61,7 +61,7 @@ function ReactBlogs() {
           </p>
         </span>
 
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header">
           <a
             href="https://jayprakash07.hashnode.dev/typewriter-effect-in-your-react-app-ckktxffaf0fzxjjs13p5wb8hh"
             target="_blank"

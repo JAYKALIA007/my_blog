@@ -4,7 +4,9 @@ function RecentBlogs() {
     <div>
       <br />
       <span className="project-header">
-        <Link to="/blog/react/reactRouter">React Router in your React app</Link>
+        <Link to="/blog/react/reactRouter">
+          Using React Router in your React app
+        </Link>
         <p>
           A single-page application (SPA) is a website that re-renders its
           content in response to navigation actions (e.g. clicking a link)

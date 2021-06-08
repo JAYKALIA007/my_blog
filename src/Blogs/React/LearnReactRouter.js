@@ -4,7 +4,7 @@ function LearnReactRouter() {
   return (
     <div className="blog">
       <span className="recent-work">
-        <header>React Router in your React app</header>
+        <header>Using React Router in your React app</header>
       </span>
       <br />
       <br />
