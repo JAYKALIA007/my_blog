@@ -5,4 +5,4 @@ Dive right in.
 
 ## Tech Stack
 
-This project was created using React.js, pure CSS and HTML.
+This project was created using React.js, cutsom CSS and HTML.
