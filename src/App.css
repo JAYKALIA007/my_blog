@@ -57,7 +57,9 @@ header {
   font-size: 37px;
   font-weight: 900;
 }
-
+.code-example {
+  padding: 5px;
+}
 .recent-work header {
   font-size: 32px;
   font-weight: 600;
@@ -345,3 +347,4 @@ body.light .skill header {
     font-size: 30px;
   }
 }
+/* blog */

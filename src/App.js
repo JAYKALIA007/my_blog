@@ -10,9 +10,13 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ReactBlogs from "./Blogs/ReactBlogs";
 import JSBlogs from "./Blogs/JSBlogs";
 import DSABlogs from "./Blogs/DSABlogs";
+import ScrollToTop from "./ScrollToTop";
+import LearnReactRouter from "./Blogs/React/LearnReactRouter";
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <Switch>
@@ -39,6 +43,9 @@ function App() {
           </Route>
           <Route exact path="/blog/dsa">
             <DSABlogs />
+          </Route>
+          <Route exact path="/blog/react/reactRouter">
+            <LearnReactRouter />
           </Route>
           <Route
             render={() => <span className="errorMessage">Error 404</span>}

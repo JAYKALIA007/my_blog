@@ -4,6 +4,14 @@ function RecentBlogs() {
     <div>
       <br />
       <span className="project-header">
+        <Link to="/blog/react/reactRouter">React Router in your React app</Link>
+        <p>
+          A single-page application (SPA) is a website that re-renders its
+          content in response to navigation actions (e.g. clicking a link)
+          without making a request...
+        </p>
+      </span>
+      <span className="project-header">
         <a
           href="https://jayprakash07.hashnode.dev/using-axios-to-fetch-data-in-your-react-apps-ckluks4bb0dth10s1e16pa6tb"
           target="_blank"
