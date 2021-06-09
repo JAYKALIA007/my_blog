@@ -10,7 +10,7 @@ function LearnReactRouter() {
           name="description"
           content="Using React Router in your React app"
         />
-        <title>jay_kalia//blog/react/reactRouter</title>
+        <title>jay_kalia/blog/react/reactRouter</title>
         <link
           rel="canonical"
           href="http://jaykalia.netlify.app/blog/react/reactRouter"
