@@ -9,6 +9,10 @@ function DSABlogs() {
           name="description"
           content="A collection of some data structures and algorithms blogs that you may find handy."
         />
+        <meta
+          name="keywords"
+          content="Jay's blog,react,javascript,data structures and algorithms,blogs,HEAPS,AVL trees, Dynamic Programming , Linked lists, Runner Technique "
+        />
         <title>jay_kalia/blog/dsa</title>
         <link rel="canonical" href="http://jaykalia.netlify.app/blog/dsa" />
       </Helmet>

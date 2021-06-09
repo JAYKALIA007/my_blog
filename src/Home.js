@@ -13,8 +13,12 @@ class Home extends Component {
             technologies and developing software solutions. I am pursuing Web
             Development and Blog Writing as hobbies."
           />
+          <meta
+            name="keywords"
+            content="react,javascript,data structures and algorithms,blogs,frontend REACT developer, Jay's blog,music, FIFA, blog writing, jay kalia, jay prakash , Jay Kalia, Jay Prakash Kalia "
+          />
           <title>Jay's Blog</title>
-          <link rel="canonical" href="http://jaykalia.netlify.app" />
+          <link rel="canonical" href="http://jaykalia.netlify.app/" />
         </Helmet>
         <div className="introduction">
           <header>Hey, it's Jay. </header>

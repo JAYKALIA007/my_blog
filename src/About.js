@@ -13,6 +13,11 @@ class About extends Component {
           the same time I have built some projects as well as written multiple
           blogposts."
           />
+          <meta
+            name="keywords"
+            content="Jay Kalia,Jay's blog, about , frontend development ,Java, JavaScript,React JS, Redux,Software developer [TCS Digital,
+              Bangalore], Data Structures and Algorithms,GIT Bash, Mother's Public School, BBSR,CET, BBSR,St. Teresa's School, Joda "
+          />
           <title>jay_kalia/about</title>
           <link rel="canonical" href="http://jaykalia.netlify.app/about" />
         </Helmet>

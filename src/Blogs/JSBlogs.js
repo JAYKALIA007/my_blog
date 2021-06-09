@@ -9,6 +9,10 @@ function JSBlogs() {
           name="description"
           content="A collection of some javascript blogs that you may find handy."
         />
+        <meta
+          name="keywords"
+          content="Jay's blog,react,javascript,data structures and algorithms,blogs,undefined, not defined, JavaScript. "
+        />
         <title>jay_kalia/blog/js</title>
         <link rel="canonical" href="http://jaykalia.netlify.app/blog/js" />
       </Helmet>

@@ -5,12 +5,16 @@ function Blog() {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
+        <title>jay_kalia/blog</title>
+        <meta
+          name="keywords"
+          content="Jay's blog,react,javascript,data structures and algorithms,blogs "
+        />
         <meta
           name="description"
           content="A collection of some blogs that you may find handy. The doamins are React.js, Javascript and data structures and algorithms"
         />
-        <title>jay_kalia/blog</title>
-        <link rel="canonical" href="http://jaykalia.netlify.appk/blog" />
+        <link rel="canonical" href="http://jaykalia.netlify.app/blog" />
       </Helmet>
       <br />
       <Link

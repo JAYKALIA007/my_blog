@@ -5,12 +5,16 @@ function LearnReactRouter() {
   return (
     <div className="blog">
       <Helmet>
+        <title>jay_kalia/blog/react/reactRouter</title>
         <meta charSet="utf-8" />
         <meta
           name="description"
           content="Using React Router in your React app"
         />
-        <title>jay_kalia/blog/react/reactRouter</title>
+        <meta
+          name="keywords"
+          content="Jay's blog,react,javascript,react router,blogs,Using React Router in your React app, single page application "
+        />
         <link
           rel="canonical"
           href="http://jaykalia.netlify.app/blog/react/reactRouter"

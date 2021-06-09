@@ -9,6 +9,10 @@ function ReactBlogs() {
           name="description"
           content="A collection of some React.js blogs that you may find handy."
         />
+        <meta
+          name="keywords"
+          content="Jay's blog,react,javascript,data structures and algorithms,blogs,Using React Router in your React app, single page application,axios, fetch,Typewriter effect "
+        />
         <title>jay_kalia/blog/react</title>
         <link rel="canonical" href="http://jaykalia.netlify.app/blog/react" />
       </Helmet>
