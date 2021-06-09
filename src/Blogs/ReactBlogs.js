@@ -1,8 +1,17 @@
 import { Link } from "react-router-dom";
-// import LearnReactRouter from "./Blogs/React/LearnReactRouter";
+import { Helmet } from "react-helmet";
 function ReactBlogs() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="A collection of some React.js blogs that you may find handy."
+        />
+        <title>jay_kalia/blog/react</title>
+        <link rel="canonical" href="http://jaykalia.netlify.app/blog/react" />
+      </Helmet>
       <br />
       <Link
         className="blog-filter"

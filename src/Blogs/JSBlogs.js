@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function JSBlogs() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="A collection of some javascript blogs that you may find handy."
+        />
+        <title>jay_kalia/blog/js</title>
+        <link rel="canonical" href="http://jaykalia.netlify.app/blog/js" />
+      </Helmet>
       <br />
       <Link
         className="blog-filter"

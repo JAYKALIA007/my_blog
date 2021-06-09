@@ -78,7 +78,7 @@ class Footer extends Component {
             </a>
           </li>
           <li>
-            <Link className="item" to="/home">
+            <Link className="item" to="/">
               Home
             </Link>
           </li>
@@ -93,7 +93,7 @@ class Footer extends Component {
             </Link>
           </li>
           <li>
-            <Link className="item" to="/mywork">
+            <Link className="item" to="/myWork">
               MyWork
             </Link>
           </li>

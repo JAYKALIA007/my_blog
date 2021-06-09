@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/allBut">
             <AllBut />
           </Route>
-          <Route exact path="/mywork">
+          <Route exact path="/myWork">
             <MyWork />
           </Route>
           <Route exact path="/blog">

@@ -1,8 +1,21 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 class About extends Component {
   render() {
     return (
       <div className="about">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta
+            name="description"
+            content="I have interests and experience in Software development, mostly
+          frontend development using React.js. I have been working with React.js for almost 7 months now. At
+          the same time I have built some projects as well as written multiple
+          blogposts."
+          />
+          <title>jay_kalia/about</title>
+          <link rel="canonical" href="http://jaykalia.netlify.app/about" />
+        </Helmet>
         <header>About me</header>
         <p>
           I have interests and experience in Software development, mostly

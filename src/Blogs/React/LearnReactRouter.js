@@ -1,8 +1,22 @@
 import img1 from "./noRouter.png";
 import img2 from "./reactRouter.png";
+import { Helmet } from "react-helmet";
 function LearnReactRouter() {
   return (
     <div className="blog">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="Using React Router in your React app"
+        />
+        <title>jay_kalia//blog/react/reactRouter</title>
+        <link
+          rel="canonical"
+          href="http://jaykalia.netlify.app/blog/react/reactRouter"
+        />
+      </Helmet>
+
       <span className="recent-work">
         <header>Using React Router in your React app</header>
       </span>

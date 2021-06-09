@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 class AllBut extends Component {
   render() {
     return (
       <div style={{ textAlign: "center" }}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>jay_kalia/allBut</title>
+          <link rel="canonical" href="http://jaykalia.netlify.app/allBut" />
+        </Helmet>
         <br />
         <p>
           If you are looking for content related to programming here as well.
