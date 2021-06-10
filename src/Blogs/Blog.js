@@ -8,7 +8,7 @@ function Blog() {
         <title>jaykalia/blog</title>
         <meta
           name="keywords"
-          content="Jay's blog,react,javascript,data structures and algorithms,blogs "
+          content="Jay's blog,react,javascript,data structures and algorithms,blogs, dsa, react.js"
         />
         <meta
           name="description"
