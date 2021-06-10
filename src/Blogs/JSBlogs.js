@@ -13,7 +13,7 @@ function JSBlogs() {
           name="keywords"
           content="Jay's blog,react,javascript,data structures and algorithms,blogs,undefined, not defined, JavaScript. "
         />
-        <title>jay_kalia/blog/js</title>
+        <title>jaykalia/blog/js</title>
         <link rel="canonical" href="http://jaykalia.netlify.app/blog/js" />
       </Helmet>
       <br />

@@ -5,7 +5,7 @@ function Blog() {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>jay_kalia/blog</title>
+        <title>jaykalia/blog</title>
         <meta
           name="keywords"
           content="Jay's blog,react,javascript,data structures and algorithms,blogs "

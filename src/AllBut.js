@@ -6,7 +6,7 @@ class AllBut extends Component {
       <div style={{ textAlign: "center" }}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>jay_kalia/allBut</title>
+          <title>jaykalia/allBut</title>
           <link rel="canonical" href="http://jaykalia.netlify.app/allBut" />
         </Helmet>
         <br />

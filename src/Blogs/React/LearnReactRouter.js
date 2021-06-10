@@ -5,7 +5,7 @@ function LearnReactRouter() {
   return (
     <div className="blog">
       <Helmet>
-        <title>jay_kalia/blog/react/reactRouter</title>
+        <title>jaykalia/blog/react/reactRouter</title>
         <meta charSet="utf-8" />
         <meta
           name="description"

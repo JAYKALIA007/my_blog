@@ -13,7 +13,7 @@ function DSABlogs() {
           name="keywords"
           content="Jay's blog,react,javascript,data structures and algorithms,blogs,HEAPS,AVL trees, Dynamic Programming , Linked lists, Runner Technique "
         />
-        <title>jay_kalia/blog/dsa</title>
+        <title>jaykalia/blog/dsa</title>
         <link rel="canonical" href="http://jaykalia.netlify.app/blog/dsa" />
       </Helmet>
       <br />
