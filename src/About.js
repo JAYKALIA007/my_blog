@@ -26,9 +26,14 @@ class About extends Component {
           I have interests and experience in Software development, mostly
           frontend development using{" "}
           <strong>
-            <em>React.js</em>
-          </strong>
-          . I have been working with React.js for almost 7 months now. &nbsp;At
+            <em>React</em>
+          </strong>{" "}
+          as well as
+          {" "}
+          <strong>
+            <em>Angular</em>
+          </strong>{" "}
+          . I have been working with React and Angular for almost an year now now, and with Golang for almost 3-4 months. &nbsp;At
           the same time I have built some projects as well as written multiple
           blogposts.
         </p>
@@ -44,13 +49,19 @@ class About extends Component {
           <div className="skill">
             <p>
               <header>Languages</header>
-              &nbsp;&nbsp;&nbsp;Java, JavaScript
+              &nbsp;&nbsp;&nbsp;Java, JavaScript, Golang
             </p>
           </div>
           <div className="skill">
             <p>
               <header>Libraries</header>
-              &nbsp;&nbsp;&nbsp;React JS, Redux
+              &nbsp;&nbsp;&nbsp;React JS, Redux, Angular 
+            </p>
+          </div>
+          <div className="skill">
+            <p>
+              <header>Databases</header>
+              &nbsp;&nbsp;&nbsp;MongoDB, Firebase
             </p>
           </div>
           <div className="skill">
@@ -72,7 +83,7 @@ class About extends Component {
             <p>
               <header>2021</header>
               &nbsp;&nbsp;&nbsp;<strong>Full time</strong> <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software developer [TCS Digital,
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full stack developer [TCS Digital,
               Bangalore] <br />
               &nbsp;&nbsp;&nbsp;<strong>Graduation</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.45 [CET, BBSR]
