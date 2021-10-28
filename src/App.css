@@ -57,6 +57,11 @@ header {
   font-size: 37px;
   font-weight: 900;
 }
+.tree-header {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 900;
+}
 .code-example {
   padding: 5px;
 }
@@ -173,6 +178,9 @@ body.light .skill header {
     font-size: 50px;
     padding: 10%;
   }
+  .tree-header {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 900px) {
   body {
@@ -275,6 +283,9 @@ body.light .skill header {
     margin: auto;
     font-size: 15px;
   }
+  .tree-header {
+    font-size: 5px;
+  }
   .App {
     line-height: 1.35em;
     max-width: 95%;
@@ -296,6 +307,9 @@ body.light .skill header {
   }
   header {
     font-size: 25px;
+  }
+  .tree-header {
+    font-size: 5px;
   }
   .recent-work header {
     font-size: 23px;
@@ -324,6 +338,7 @@ body.light .skill header {
   #image {
     width: 122px;
   }
+
   p {
     font-size: 15px;
   }

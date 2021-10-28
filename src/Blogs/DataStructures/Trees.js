@@ -11,7 +11,7 @@ function Trees() {
           </Helmet>
     
           <span className="recent-work">
-            <header id="trees-header" style={{ fontSize: "30px"}}>TREES, your friendly neighborhood data structures.</header>
+            <header className="tree-header">TREES, your friendly neighborhood data structures.</header>
           </span>
           <br />
           <br />
@@ -266,53 +266,53 @@ function Trees() {
                  <div className="code-example blog-filter">
                     {` Node deleteRec(Node root, int data) {`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; 
                     {`if(root == null) {`}
                     <br />
                     
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                     {`return root ;`}
                     <br/>
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                    &nbsp;&nbsp; &nbsp;&nbsp; 
                     {`}`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  
                     {`if(root.data > data ) `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`root.left = deleteRec(root.left , data) ;`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  
                     {`else if(root.data < data ) `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`root.right = deleteRec(root.right , data) ;`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  
                     {`else {`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`if(root.left == null )`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                     {`return root.right ; `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`if(root.right == null )`}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                     {`return root.left ; `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`root.data = inOrderSuccessor(root.right) ;`}
                     <br/>
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`root.right = deleteRec(root.right , root.data) ; `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`}`}
                     <br/>
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  
+                    &nbsp;&nbsp; &nbsp;&nbsp;  
                     {`return root;`}
                     <br />
                     &nbsp;&nbsp; 
