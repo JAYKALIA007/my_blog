@@ -303,11 +303,11 @@ function Trees() {
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                     {`return root.left ; `}
                     <br />
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
-                    {`root.data = inOrderSuccessor(root.right) ;`}
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+                    {`root.data = inOrderSuccessor(root.right);`}
                     <br/>
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
-                    {`root.right = deleteRec(root.right , root.data) ; `}
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+                    {`root.right = deleteRec(root.right , root.data); `}
                     <br />
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
                     {`}`}
