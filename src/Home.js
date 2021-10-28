@@ -30,7 +30,7 @@ class Home extends Component {
             <strong>
               <em>Golang</em>
             </strong>.{" "}
-            I love exploring new technologies and developing software solutions, building frontend and blog writing being some of my hobbies.
+            I love exploring new technologies and developing software solutions. Building frontend and blog writing being some of my hobbies.
             Apart from that, I like music, playing guitar and FIFA.
           </p>
         </div>

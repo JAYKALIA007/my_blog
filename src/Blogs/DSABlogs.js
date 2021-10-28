@@ -49,7 +49,17 @@ function DSABlogs() {
       <hr />
       <br />
       <div id="#dsa">
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header" >
+            <Link to="/blog/dsa/trees">
+              TREES, your friendly neighborhood data structures
+            </Link>
+            <p>
+              A Tree is a non-linear data structure that organizes data in a hierarchical way.
+              As opposed to arrays or linked lists that are linear, a tree can have zero or ...
+            </p>
+        </span>
+
+        <span className="project-header">
           <a
             href="https://jaykalia07.medium.com/heaps-the-cutest-little-data-structure-ever-invented-a1d0010cca84"
             target="_blank"
@@ -63,7 +73,7 @@ function DSABlogs() {
             is made up of smaller...
           </p>
         </span>
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header">
           <a
             href="https://jaykalia07.medium.com/perfectly-balanced-as-all-things-should-be-avl-trees-9979724fba7d"
             target="_blank"
@@ -77,7 +87,7 @@ function DSABlogs() {
             It was the first ...
           </p>
         </span>
-        <span className="project-header" style={{ paddingBottom: "5%" }}>
+        <span className="project-header">
           <a
             href="https://medium.com/swlh/an-introduction-to-dynamic-programming-b2389eff7321"
             target="_blank"

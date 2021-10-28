@@ -12,6 +12,7 @@ import JSBlogs from "./Blogs/JSBlogs";
 import DSABlogs from "./Blogs/DSABlogs";
 import ScrollToTop from "./ScrollToTop";
 import LearnReactRouter from "./Blogs/React/LearnReactRouter";
+import Trees from "./Blogs/DataStructures/Trees";
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route exact path="/blog/react/reactRouter">
             <LearnReactRouter />
+          </Route>
+          <Route exact path="/blog/dsa/trees">
+            <Trees />
           </Route>
           <Route
             render={() => <span className="errorMessage">Error 404</span>}

@@ -17,6 +17,8 @@ function Blog() {
         <link rel="canonical" href="http://jaykalia.netlify.app/blog" />
       </Helmet>
       <br />
+
+      
       <Link
         className="blog-filter"
         style={{ padding: "2px", margin: "10px" }}
@@ -48,6 +50,17 @@ function Blog() {
       <br />
       <hr />
       <br />
+      <div id="#dsa">
+          <span className="project-header">
+            <Link to="/blog/dsa/trees">
+              TREES, your friendly neighborhood data structures
+            </Link>
+            <p>
+              A Tree is a non-linear data structure that organizes data in a hierarchical way.
+              As opposed to arrays or linked lists that are linear, a tree can have zero or ...
+            </p>
+          </span>
+      </div>
       <div id="#react">
         <span className="project-header">
           <Link to="/blog/react/reactRouter">

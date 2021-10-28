@@ -4,6 +4,16 @@ function RecentBlogs() {
     <div>
       <br />
       <span className="project-header">
+        <Link to="/blog/dsa/trees">
+          TREES, your friendly neighborhood data structures
+        </Link>
+        <p>
+            A Tree is a non-linear data structure that organizes data in a hierarchical way.
+            As opposed to arrays or linked lists that are linear, a tree can have zero or ...
+        </p>
+      </span>
+      
+      <span className="project-header">
         <Link to="/blog/react/reactRouter">
           Using React Router in your React app
         </Link>
