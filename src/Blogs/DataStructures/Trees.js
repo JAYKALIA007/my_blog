@@ -59,10 +59,10 @@ function Trees() {
             /> */}
             <p>
               <ol>
-                <li style={{ paddingBottom: "2%"}}>Facebook comments show this behaviour when you comment on a post. And then, someone else comments on your comment.</li>
-                <li style={{ paddingBottom: "2%"}}>Web pages are created by something called as the DOM. And this, is nothing but a tree data structure.</li>
-                <li style={{ paddingBottom: "2%"}}>Abstract Syntax Trees or ASTs are tree representations of code. They are a fundamental part of the way a compiler works.</li>
-                <li style={{ paddingBottom: "2%"}}>Linked list is a technically a type of tree, but with just one single path i.e; they are linear.</li>
+                <li className="tree-list">Facebook comments show this behaviour when you comment on a post. And then, someone else comments on your comment.</li>
+                <li className="tree-list">Web pages are created by something called as the DOM. And this, is nothing but a tree data structure.</li>
+                <li className="tree-list">Abstract Syntax Trees or ASTs are tree representations of code. They are a fundamental part of the way a compiler works.</li>
+                <li className="tree-list">Linked list is a technically a type of tree, but with just one single path i.e; they are linear.</li>
               </ol>
             </p>
             <hr/>
@@ -80,8 +80,8 @@ function Trees() {
             <p>
             For a binary tree, each node has a value associated with it and two other pointers.
               <ol>
-                <li style={{ paddingBottom: "2%"}}> One to the left of the node, called as the <em className="blog-filter">{`left child`} </em>.</li>
-                <li style={{ paddingBottom: "2%"}}> The other to the right of the node, called as the <em className="blog-filter">{`right child`} </em>.</li>
+                <li className="tree-list"> One to the left of the node, called as the <em className="blog-filter">{`left child`} </em>.</li>
+                <li className="tree-list"> The other to the right of the node, called as the <em className="blog-filter">{`right child`} </em>.</li>
               </ol>
             </p>
             <p>
@@ -89,9 +89,9 @@ function Trees() {
                 satisfy the following criterias:<br/><br/>
                 <div className="code-example blog-filter">
                     <ol>
-                      <li style={{ paddingBottom: "2%"}}>Each node can have either zero, one or two child nodes only.</li>
-                      <li style={{ paddingBottom: "2%"}}>Each child node can have only one parent.</li>
-                      <li style={{ paddingBottom: "2%"}}>Each node represents a certain state.</li>
+                      <li className="tree-list">Each node can have either zero, one or two child nodes only.</li>
+                      <li className="tree-list">Each child node can have only one parent.</li>
+                      <li className="tree-list">Each node represents a certain state.</li>
                     </ol>
                 </div>
             </p>
@@ -135,10 +135,10 @@ function Trees() {
 
             <p>
               <ol>
-                <li style={{ paddingBottom: "2%"}}>Searching become very efficient in a binary search tree since, we get a hint at each step, about which sub-tree contains the desired element.</li>
-                <li style={{ paddingBottom: "2%"}}>The binary search tree is considered as efficient data structure in comparison to arrays and linked lists. In searching process, it removes half sub-tree at every step. 
+                <li className="tree-list">Searching become very efficient in a binary search tree since, we get a hint at each step, about which sub-tree contains the desired element.</li>
+                <li className="tree-list">The binary search tree is considered as efficient data structure in comparison to arrays and linked lists. In searching process, it removes half sub-tree at every step. 
                    Searching for an element in a binary search tree takes <em className="blog-filter">{`O(log2n) `}</em>&nbsp; time. In worst case, the time it takes to search an element is <em className="blog-filter">{` O(n) `}</em>&nbsp;.</li>
-                <li style={{ paddingBottom: "2%"}}>It also speeds up the insertion and deletion operations as compared to that in array and linked list.</li>
+                <li className="tree-list">It also speeds up the insertion and deletion operations as compared to that in array and linked list.</li>
               </ol>
             </p>
 
