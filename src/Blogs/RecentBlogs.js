@@ -5,7 +5,7 @@ function RecentBlogs() {
       <br />
       <span className="project-header">
         <Link to="/blog/dsa/trees">
-          TREES, your friendly neighborhood data structures
+          TREES, your friendly neighbourhood data structures
         </Link>
         <p>
             A Tree is a non-linear data structure that organizes data in a hierarchical way.

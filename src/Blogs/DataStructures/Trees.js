@@ -11,7 +11,7 @@ function Trees() {
           </Helmet>
     
           <span className="recent-work">
-            <header className="tree-header">TREES, your friendly neighborhood data structures.</header>
+            <header className="tree-header">TREES, your friendly neighbourhood data structures.</header>
           </span>
           <br />
           <br />
