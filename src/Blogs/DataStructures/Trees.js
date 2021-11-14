@@ -1,8 +1,35 @@
 import img1 from "./trees.png";
 import bstNotBST from "./bst_notBst.png";
 import { Helmet } from "react-helmet";
+import { useState } from 'react';
 
 function Trees() {
+  const [copied1, setCopied1] = useState(false);
+  const [copied2, setCopied2] = useState(false);
+  const [copied3, setCopied3] = useState(false);
+  const [copied4, setCopied4] = useState(false);
+
+  function handleClick1() {
+    setCopied1(!copied1);
+    setTimeout(() => {setCopied1(false);},2000)
+  }
+  function handleClick2() {
+    setCopied2(!copied2);
+    setTimeout(() => {setCopied2(false);},2000)
+  } 
+  function handleClick3() {
+    setCopied3(!copied3);
+    setTimeout(() => {setCopied3(false);},2000)
+  }  
+  function handleClick4() {
+    setCopied4(!copied4);
+    setTimeout(() => {setCopied4(false);},2000)
+  }
+  const btnText1 = copied1 ? 'Copied' : 'Copy'
+  const btnText2 = copied2 ? 'Copied' : 'Copy'
+  const btnText3 = copied3 ? 'Copied' : 'Copy'
+  const btnText4 = copied4 ? 'Copied' : 'Copy'
+
     return (
         <div className="blog">
           <Helmet>
@@ -141,12 +168,29 @@ function Trees() {
                 <li className="tree-list">It also speeds up the insertion and deletion operations as compared to that in array and linked list.</li>
               </ol>
             </p>
-
+            <div>
             <span className="project-header">Implementing a BST.</span><br />
             <p>
             For the implementation, we'll use an auxiliary Node class that will 
             store int values, and keep a reference to each child:
+              {/* <div className="code-example blog-filter" onClick={handleClick}> */}
               <div className="code-example blog-filter">
+              <button 
+              onClick={() =>  {navigator.clipboard.writeText(`
+class Node {
+  int data ;
+  Node left ;
+  Node right ;
+    Node(int data) {
+      this.data = data ;
+      right = null ;
+      left = null ;
+    }
+  }`
+                ); handleClick1()}}
+              >
+              {btnText1}
+            </button>
                 {`class Node {`}
                 <br />
                 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -178,6 +222,9 @@ function Trees() {
                 <br />
               </div>
             </p>
+
+            </div>
+            
             <br/>
 
             <p>
@@ -185,6 +232,22 @@ function Trees() {
                <ol>
                  <li>Search for a node</li>
                  <div className="code-example blog-filter">
+                 <button 
+                   onClick={() =>  {navigator.clipboard.writeText(`
+boolean searchRec(Node root, int data) {
+ if(root == null)
+  return false ;
+    if(root.data > data )
+        return searchRec(root.left , data) ;
+    else if(root.data < data )
+        searchRec(root.right , data) ;
+    else if(root.data == data )
+        return true ;
+  }`
+                ); handleClick2()}}
+                  >
+                    {btnText2}
+                  </button>
                     {` boolean searchRec(Node root, int data) {`}
                     <br />
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -219,6 +282,23 @@ function Trees() {
                  <li>Insert a new node</li>
                  In order to insert a new node, first find the place where you should insert the node( so as to satisy the BST condition).
                  <div className="code-example blog-filter">
+                 <button 
+                   onClick={() =>  {navigator.clipboard.writeText(`
+Node insertRec(Node root, int data) {
+  if(root == null) {
+   root=new Node(data);
+   return root;
+  }
+  if(root.data > data )
+    root.left = insert(root.left , data);
+  else if(root.data < data )
+    root.right = insert(root.right , data);
+  return root;
+}`
+                ); handleClick3()}}
+                  >
+                    {btnText3}
+                  </button>
                     {` Node insertRec(Node root, int data) {`}
                     <br />
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -264,6 +344,30 @@ function Trees() {
                    <br/>
                    Let's dive into the code now.
                  <div className="code-example blog-filter">
+                 <button 
+                   onClick={() =>  {navigator.clipboard.writeText(`
+Node deleteRec(Node root, int data) {
+    if(root == null) {
+      return root ;
+      }
+    if(root.data > data )
+      root.left = deleteRec(root.left , data) ;
+    else if(root.data < data )
+      root.right = deleteRec(root.right , data) ;
+    else {
+      if(root.left == null )
+          return root.right ;
+      if(root.right == null )
+          return root.left ;
+      root.data = inOrderSuccessor(root.right);
+      root.right = deleteRec(root.right , root.data);
+    }
+    return root;
+  }`
+                ); handleClick4()}}
+                  >
+                    {btnText4}
+                  </button>
                     {` Node deleteRec(Node root, int data) {`}
                     <br />
                     &nbsp;&nbsp; 
