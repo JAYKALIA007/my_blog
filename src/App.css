@@ -203,6 +203,9 @@ button:hover{
     font-size: 70px;
     padding: 10%;
   }
+  button{
+    font-size:11px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .errorMessage {
@@ -375,6 +378,9 @@ button:hover{
     padding: 13%;
     font-size: 40px;
   }
+  button{
+    font-size:8px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -409,6 +415,9 @@ button:hover{
   .errorMessage {
     margin: 20px;
     font-size: 30px;
+  }
+  button{
+    font-size:6px;
   }
 }
 /* blog */
