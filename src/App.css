@@ -153,6 +153,38 @@ body.light .skill header {
   padding: 5%;
 }
 
+#skill-list{
+  margin-left: 5%;
+  font-size: 19px;
+  font-weight: 300;
+}
+body.dark #skill-list {
+  color: #e6d7d7;
+}
+body.light #skill-list {
+  color: #6b5a5a;
+}
+
+#p-replacement{
+  font-size: 19px;
+  font-weight: 300;
+}
+body.dark #p-replacement {
+  color: #e6d7d7;
+}
+body.light #p-replacement {
+  color: #6b5a5a;
+}
+body.dark button {
+  color: #302c2c;
+}
+body.light button {
+  color: #6b5a5a;
+}
+button:hover{
+  cursor: pointer; 
+}
+
 @media screen and (max-width: 1400px) {
   body {
     max-width: 80%;
@@ -234,6 +266,10 @@ body.light .skill header {
     margin: 20%;
   }
   p {
+    font-size: 17px;
+    line-height: 1.4rem;
+  }
+  #p-replacement {
     font-size: 17px;
     line-height: 1.4rem;
   }
@@ -349,6 +385,9 @@ body.light .skill header {
   p {
     font-size: 15px;
   }
+  #p-replacement {
+    font-size: 15px;
+  }
   .errorMessage {
     margin: 50px;
     padding: 10%;
@@ -362,6 +401,9 @@ body.light .skill header {
     padding-top: 60px;
   }
   p {
+    font-size: 14px;
+  }
+  #p-replacement {
     font-size: 14px;
   }
   .errorMessage {

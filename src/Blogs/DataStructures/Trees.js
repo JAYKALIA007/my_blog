@@ -61,7 +61,8 @@ function Trees() {
               The nodes at the very end of each branch are called as the <em className="blog-filter">{`leaf nodes`} </em> .
             </p>
             <img src={img1} alt="tree data structure" style={{ maxWidth: "90%" ,  display: "block", marginLeft: "auto", marginRight: "auto",}} />
-            <p>
+            <br/>
+            <div id="p-replacement">
                 <div className="code-example blog-filter">
                     {`In the tree above:`}
                     <br />
@@ -76,7 +77,7 @@ function Trees() {
                     &nbsp;&nbsp;{`Also, D is a parent for nodes H and I.`}
                     <br/>
                 </div>
-            </p>
+            </div>
             <br />
             <span className="project-header">Some real world use cases:</span>
             <br/> 
@@ -84,14 +85,14 @@ function Trees() {
             {/* <img src={facebook_comments} alt="facebook comments are made up of tree data structure" 
                 style={{ maxWidth: "80%" , display: "block", marginLeft: "auto", marginRight: "auto",}}
             /> */}
-            <p>
+            <div id="p-replacement">
               <ol>
                 <li className="tree-list">Facebook comments show this behaviour when you comment on a post. And then, someone else comments on your comment.</li>
                 <li className="tree-list">Web pages are created by something called as the DOM. And this, is nothing but a tree data structure.</li>
                 <li className="tree-list">Abstract Syntax Trees or ASTs are tree representations of code. They are a fundamental part of the way a compiler works.</li>
                 <li className="tree-list">Linked list is a technically a type of tree, but with just one single path i.e; they are linear.</li>
               </ol>
-            </p>
+            </div>
             <hr/>
 
             {/* <div className="code-example blog-filter">
@@ -104,14 +105,14 @@ function Trees() {
                 each of which has at most, two children, referred to as left and right nodes. 
                 The tree starts off with a single node known as the root.
             </p>
-            <p>
+            <div id="p-replacement">
             For a binary tree, each node has a value associated with it and two other pointers.
               <ol>
                 <li className="tree-list"> One to the left of the node, called as the <em className="blog-filter">{`left child`} </em>.</li>
                 <li className="tree-list"> The other to the right of the node, called as the <em className="blog-filter">{`right child`} </em>.</li>
               </ol>
-            </p>
-            <p>
+            </div>
+            <div id="p-replacement">
                 In order for a tree to qualify as a binary tree, each and every node should 
                 satisfy the following criterias:<br/><br/>
                 <div className="code-example blog-filter">
@@ -121,7 +122,7 @@ function Trees() {
                       <li className="tree-list">Each node represents a certain state.</li>
                     </ol>
                 </div>
-            </p>
+            </div>
             <br/>
             <span className="project-header">Height and depth of a binary tree.</span>
             <p>
@@ -133,13 +134,13 @@ function Trees() {
 
 
             <span className="project-header">Types of Binary Trees:</span><br />
-              <p>
+              <div id="p-replacement">
                 <ol>
                         <li><em className="blog-filter">{`Full Binary Tree.`} </em>: All the nodes have zero or two children, except for the leaf nodes.</li>
                         <li> <em className="blog-filter">{`Complete Binary Tree.`}</em>: All levels are completely filled, except for the lowest one, which is filled from the left. </li>
                         <li> <em className="blog-filter">{`Perfect Binary Tree.`} </em>: Completely filled out i.e; a node either has zero or two children. Also, the bottom layer is completely filled.</li>
                 </ol>
-              </p>
+              </div>
             <hr/>
             <span className="project-header">What is a binary search tree?</span><br />
             <p>
@@ -160,17 +161,17 @@ function Trees() {
 
             <span className="project-header">Advantages of using a binary search tree.</span><br />
 
-            <p>
+            <div id="p-replacement">
               <ol>
                 <li className="tree-list">Searching become very efficient in a binary search tree since, we get a hint at each step, about which sub-tree contains the desired element.</li>
                 <li className="tree-list">The binary search tree is considered as efficient data structure in comparison to arrays and linked lists. In searching process, it removes half sub-tree at every step. 
                    Searching for an element in a binary search tree takes <em className="blog-filter">{`O(log2n) `}</em>&nbsp; time. In worst case, the time it takes to search an element is <em className="blog-filter">{` O(n) `}</em>&nbsp;.</li>
                 <li className="tree-list">It also speeds up the insertion and deletion operations as compared to that in array and linked list.</li>
               </ol>
-            </p>
+            </div>
             <div>
             <span className="project-header">Implementing a BST.</span><br />
-            <p>
+            <div id="p-replacement">
             For the implementation, we'll use an auxiliary Node class that will 
             store int values, and keep a reference to each child:
               {/* <div className="code-example blog-filter" onClick={handleClick}> */}
@@ -221,13 +222,13 @@ class Node {
                 {`}`}
                 <br />
               </div>
-            </p>
+            </div>
 
             </div>
             
             <br/>
 
-            <p>
+            <div id="p-replacement">
                <em className="blog-filter">{` Common operations on a BST :`}</em>
                <ol>
                  <li>Search for a node</li>
@@ -426,7 +427,7 @@ Node deleteRec(Node root, int data) {
 
 
                </ol>
-            </p>
+            </div>
             <hr/>
             <p>
             If you would like to know more about BST's, their drawbacks, how to improve their performance by using AVL trees? <br/>

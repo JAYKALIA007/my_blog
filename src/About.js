@@ -47,68 +47,68 @@ class About extends Component {
           />
           <header>Skills</header>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>Languages</header>
-              &nbsp;&nbsp;&nbsp;Java, JavaScript, Golang
-            </p>
+              &nbsp;&nbsp;&nbsp;Golang, JavaScript, Typescript, Java
+            </div>
           </div>
           <div className="skill">
-            <p>
-              <header>Libraries</header>
-              &nbsp;&nbsp;&nbsp;React JS, Redux, Angular 
-            </p>
+            <div id="skill-list">
+              <header>Libraries/Frameworks</header>
+              &nbsp;&nbsp;&nbsp;Angular, React JS, Redux 
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>Databases</header>
               &nbsp;&nbsp;&nbsp;MongoDB, Firebase
-            </p>
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>IT Constructs</header>
               &nbsp;&nbsp;&nbsp;Data Structures and Algorithms
-            </p>
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>Environment</header>
               &nbsp;&nbsp;&nbsp;GIT Bash
-            </p>
+            </div>
           </div>
         </div>
         <div className="skills" style={{ textAlign: "left" }}>
           <header>Timeline</header>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>2021</header>
               &nbsp;&nbsp;&nbsp;<strong>Full time</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full stack developer [TCS Digital,
               Bangalore] <br />
               &nbsp;&nbsp;&nbsp;<strong>Graduation</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.45 [CET, BBSR]
-            </p>
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>2017</header>
               &nbsp;&nbsp;&nbsp;<strong>+2 Intermediate</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91% [Mother's Public School, BBSR]
-            </p>
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>2015</header>
               &nbsp;&nbsp;&nbsp;<strong>Matriculation</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;94.5% [St. Teresa's School, Joda]
-            </p>
+            </div>
           </div>
           <div className="skill">
-            <p>
+            <div id="skill-list">
               <header>1999</header>
               &nbsp;&nbsp;&nbsp;<strong>Born</strong> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oct 26, 1999
-            </p>
+            </div>
           </div>
         </div>
         {/* </p> */}
