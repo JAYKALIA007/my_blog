@@ -6,7 +6,7 @@ class Footer extends Component {
       <div className="footer ">
         <br />
         <a
-          href="https://open.spotify.com/playlist/7buwvIm3xfQBBOYvteO5Gf"
+          href="https://open.spotify.com/playlist/74aCi9aoL7ukl3jzcMyfw7?si=7b5d9fcd88a045bf"
           target="_blank"
           rel="noopener noreferrer"
         >
