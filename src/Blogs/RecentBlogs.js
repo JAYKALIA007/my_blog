@@ -4,6 +4,32 @@ function RecentBlogs() {
     <div>
       <br />
       <span className="project-header">
+        <a
+          href="https://jayprakash07.hashnode.dev/why-i-prefer-axios-over-fetch-ckyke3toe05yatos14rxw3p0d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >        
+        Why I prefer axios over fetch() ?
+        </a>
+        <p>
+        A while ago I published a blog on how to use Axios to fetch data in your react app . 
+        Nevertheless, it's important to acknowledge the fact that Axios...
+        </p>
+      </span>
+      <span className="project-header">
+        <a
+          href="https://medium.com/dev-genius/whats-and-why-s-of-state-in-react-8208feb6912e"
+          target="_blank"
+          rel="noopener noreferrer"
+        >        
+        What's and why's of state in React.
+        </a>
+        <p>
+        State, often termed as a component's memory in React is a plain JavaScript object 
+        used by React to represent some information about the component's current ...
+        </p>
+      </span>
+      <span className="project-header">
         <Link to="/blog/dsa/trees">
           TREES, your friendly neighbourhood data structures
         </Link>

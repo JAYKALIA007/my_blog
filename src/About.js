@@ -49,13 +49,13 @@ class About extends Component {
           <div className="skill">
             <div id="skill-list">
               <header>Languages</header>
-              &nbsp;&nbsp;&nbsp;Golang, JavaScript, Typescript, Java
+              &nbsp;&nbsp;&nbsp;Python, Golang, JavaScript, Typescript
             </div>
           </div>
           <div className="skill">
             <div id="skill-list">
               <header>Libraries/Frameworks</header>
-              &nbsp;&nbsp;&nbsp;Angular, React JS, Redux 
+              &nbsp;&nbsp;&nbsp;Angular, React JS, Flask, Redux 
             </div>
           </div>
           <div className="skill">
